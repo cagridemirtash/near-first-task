@@ -17,9 +17,12 @@
 
 ## Task Screenshot
 
-- ![Task-Function-1](/path/to/image.png "Text to show on mouseover")
-- ![Task-Console-1](/path/to/image.png "Text to show on mouseover")
-- ![Task-Function-2](/path/to/image.png "Text to show on mouseover")
-- ![Task-Console-2](/path/to/image.png "Text to show on mouseover")
-- ![Task-Function-3](/path/to/image.png "Text to show on mouseover")
-- ![Task-Console-3](/path/to/image.png "Text to show on mouseover")
+### Task 1
+![Task-Function-1](./task-img/task-1.PNG)
+![Task-Console-1](./task-img/task-console-1.PNG)
+### Task 2
+![Task-Function-2](./task-img/task-2.PNG)
+![Task-Console-2](./task-img/task-console-2.PNG)
+### Task 3
+![Task-Function-3](./task-img/task-3.PNG)
+![Task-Console-3](./task-img/task-console-3.PNG)
