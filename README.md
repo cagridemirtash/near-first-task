@@ -8,7 +8,8 @@
   yarn build:release
   near dev-deploy ./build/release/simple.wasm -> Create ./neardev -> Change value of CONTRACT_NAME from dev.... to your dev account
   Run again -> near dev-deploy ./build/release/simple.wasm
-  export $CONTRACT <function in CONTRACT> <input JSON>
+  export  CONTRACT=YOUR_DEV_ACCOUNT_HERE
+  near view $CONTRACT <function in CONTRACT> <input JSON>
 ```
 ## Task List
 - [x] Change helloWorld function to return the string hello + name
@@ -26,3 +27,7 @@
 ### Task 3
 ![Task-Function-3](./task-img/task-3.PNG)
 ![Task-Console-3](./task-img/task-console-3.PNG)
+
+## Near & Patika.dev
+- This project forked from Learn-NEAR. [Click](https://github.com/Learn-NEAR/starter--near-sdk-as) for go to original repo.
+- Also, Thanks [Patika.dev](https://www.patika.dev/) for serve this course.
