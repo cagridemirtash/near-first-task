@@ -17,9 +17,9 @@
 ## Task List
 
 - [x] Change helloWorld function to return the string hello + name
-- [x] Change this function take a string parameter called name, And return the string hello + name
-- [x] Change this function take a Array(string) parameter called names, And return the string hello names[0] hello names[1] ... hello names[n]
-- [x] Change this function to return Near Account ID.
+- [x] Change helloWorld take a string parameter called name, And return the string hello + name
+- [x] Change helloWorld take a Array(string) parameter called names, And return the string hello names[0] hello names[1] ... hello names[n]
+- [x] Change helloWorld to return Near Account ID.
 
 ## Task Screenshot
 
