@@ -14,8 +14,17 @@ import { storage, Context } from "near-sdk-as";
 }
 */
 // Task 3: Change this function take a Array<string> parameter called names, And return the string 'hello <names[0]> <names[1]> ... <names[n]>'
-export function helloWorld(names: Array<string>): string {
+/*
+  export function helloWorld(names: Array<string>): string {
   return names.map<string>((name) => "hello " + name).join(" ");
+}
+*/
+// Task 4: Change this function to return Near Account ID.
+// Get Account ID from Context. This is the account ID of the current user.
+// You can get the account ID from the following page: https://explorer.near.org/#/account
+export function helloWorld(): string {
+  const predecessor = Context.predecessor;
+  return "hello " + predecessor;
 }
 
 // read the given key from account (contract) storage
