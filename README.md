@@ -1,6 +1,8 @@
 # Near-First-Task
 
-- If run this project, follow these steps;
+- First of all, install near-cli -> npm install -g near-cli
+
+- Run this project, follow these steps;
 
 ```git
   git clone https://github.com/cagridemirtash/near-first-task.git
